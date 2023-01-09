@@ -416,6 +416,7 @@ button {
     }
 
     .main-left-container {
+        order: -1;
         width: 100%;
     }
 }
