@@ -201,7 +201,6 @@ body {
     padding-right: 1.5rem;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid green; */
 }
 
 .quantity {
@@ -327,8 +326,6 @@ button {
 
 .main-right-container {
     width: 80%;
-    background-color: #fff;
-    /* border: 1px solid black; */
 }
 
 .main-left-container {
@@ -378,11 +375,21 @@ button {
     margin: 0;
 }
 
+.right-container-buttons {
+    display: flex;
+    gap: 0;
+}
+
+.checkout-1{
+    border-radius:3px 0 0 3px;
+}
+
 .cancel {
     width: 90px;
     height: 30px;
     border: 1px solid #e9ebed;
     background-color: white;
+    border-radius: 0 3px 3px 0;
 }
 
 
