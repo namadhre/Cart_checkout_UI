@@ -388,10 +388,6 @@ button {
         display: flex;
         flex-direction: column;
     }
-
-    .main-left-container{
-        /* display: none; */
-    }
     .header-container{
         display: flex;
         flex-direction: column;
